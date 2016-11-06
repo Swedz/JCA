@@ -33,3 +33,18 @@ JCA.matches().winner("single_elim", 1, "Dank");
 JCA.matches().tie("single_elim", 1, "Dank", "Memes");
 ```
 Note, when supplying the match id, you want to specify the global match number. So, you would need to make an int variable (starting at 1) that will be added to every time a game ends. And that would be the match id you supply to the JCA#matches()#winner() or JCA#matches()#tie() methods.
+
+## Maven Setup
+To use JCA in your Maven project, download the src for JCA, export it as a JAR File (named JCA.jar), put the jar in your /src/main/resources/ directory, and in your pom.xml, add this to your dependencies:
+```xml
+<dependency>
+  <groupId>me.Swedz</groupId>
+  <artifactId>jca</artifactId>
+  <version>1.0</version>
+  <scope>system</scope>
+  <systemPath>${project.basedir}/src/main/resources/JCA.jar</systemPath>
+</dependency>
+```
+Once you do this, you can use the API in your project as much as you want!
+
+*Credit is appreciated :)*
