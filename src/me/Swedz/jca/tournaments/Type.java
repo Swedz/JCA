@@ -7,5 +7,5 @@ public enum Type {
 	
 	private final Object[] values;
 	Type(Object... vals) { values = vals; }
-    public String getName() { return (String) values[0]; }
+	public String getName() { return (String) values[0]; }
 }
