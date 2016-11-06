@@ -59,4 +59,10 @@ C:\Users\{Username}\.m2\repository\me\Swedz\JCA\0.1\JCA-0.1.jar
 ```
 Include the jar in your /src/main/resources/ as well.
 
+## Known Problems
+All projects have their little quirks and issues. And these are JCA's:
+
+- Not Asynchronous
+- Adding participants doesn't use [bulk_add](https://api.challonge.com/v1/documents/participants/bulk_add)
+
 *Credit is appreciated :)*
