@@ -10,7 +10,7 @@ SingleElim se = new SingleElim()
     .setURL("single_elim")
     .setDesc("Some dank tournament stuffs")
     .withPlayers(new String[] {
-        "Swedz",
+        "Dank",
         "Memes"
     }).build();
 ```
