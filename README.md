@@ -15,3 +15,21 @@ SingleElim se = new SingleElim()
     }).build();
 ```
 This will create a tournament at the link challonge.com/single_elim/ with the players Dank and Memes, description of "Some dank tournament stuffs", and with a display name of "Swedz's Tournament".
+
+## Starting and Ending Tournaments
+To start and/or end a tournament, simply use one of these functions:
+```java
+se.start();
+...
+se.end();
+```
+This will cause the tournament to begin or end on the webpage.
+
+## Chosing Winners for Matches
+Matches are a little trickier than the other things, so I have tried my hardest to make this as easy for you as possible. Simply, supply the tournament url (e.g: single_elim), match number that is currently running, and the player who won the match. Or, if it is a tie, supply both players.
+```java
+JCA.matches().winner("single_elim", 1, "Dank");
+...
+JCA.matches().tie("single_elim", 1, "Dank", "Memes");
+```
+Note, when supplying the match id, you want to specify the global match number. So, you would need to make an int variable (starting at 1) that will be added to every time a game ends. And that would be the match id you supply to the JCA#matches()#winner() or JCA#matches()#tie() methods.
