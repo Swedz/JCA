@@ -1,7 +1,7 @@
 ![JCA Banner](http://i.imgur.com/IuMFp5Z.png "Java Challonge API")
 
 # JCA (Java Challonge API)
-JCA strives to make Challonge interactions though Java a lot easier, cleaner, and more efficient.
+JCA strives to make [Challonge](https://challonge.com/) interactions through Java a lot easier, cleaner, and more efficient.
 
 ## Creating a Tournament
 To initialize a tournament, you must run something of the sorts:
