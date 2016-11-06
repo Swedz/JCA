@@ -14,4 +14,4 @@ SingleElim se = new SingleElim()
         "Memes"
     }).build();
 ```
-This will create a tournament at the link challonge.com/single_elim/ with the players Swedz and Memes, description of "Some dank tournament stuffs", and with a display name of "Swedz's Tournament".
+This will create a tournament at the link challonge.com/single_elim/ with the players Dank and Memes, description of "Some dank tournament stuffs", and with a display name of "Swedz's Tournament".
