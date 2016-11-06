@@ -1,3 +1,5 @@
+![JCA Banner](http://i.imgur.com/6JnE6EU.png "Java Challonge API")
+
 # JCA (Java Challonge API)
 JCA strives to make Challonge interactions though Java a lot easier, cleaner, and more efficient.
 
