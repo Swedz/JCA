@@ -1,4 +1,4 @@
-![[JCA Banner](http://i.imgur.com/IuMFp5Z.png "Java Challonge API")](https://github.com/Swedz/JDA)
+[![JCA Banner](http://i.imgur.com/IuMFp5Z.png "Java Challonge API")](https://github.com/Swedz/JCA/)
 
 # JCA (Java Challonge API)
 JCA strives to make [Challonge](https://challonge.com/) interactions through Java a lot easier, cleaner, and more efficient.
