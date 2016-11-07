@@ -64,5 +64,3 @@ All projects have their little quirks and issues. And these are JCA's:
 
 - Not Asynchronous
 - Adding participants doesn't use [bulk_add](https://api.challonge.com/v1/documents/participants/bulk_add)
-
-*Credit is appreciated :)*
