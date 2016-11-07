@@ -162,7 +162,7 @@ public class Tournament {
 	 * Supply a list of participants to be automatically added to the
 	 * tournament's page
 	 */
-	public Tournament withPlayers(String[] participants) {
+	public Tournament withPlayers(ArrayList<String> participants) {
 		if(this.debug) {
 			System.out.println("[DEBUG]: Adding participants...");
 		}
