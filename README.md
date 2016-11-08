@@ -38,26 +38,19 @@ JCA.matches().tie(1, "Dank", "Memes");
 Note, when supplying the match id, you want to specify the global match number. So, you would need to make an int variable (starting at 1) that will be added to every time a game ends. And that would be the match id you supply to the JCA#matches()#winner() or JCA#matches()#tie() methods.
 
 ## Maven Setup
-To use JCA in your Maven project, download the src for JCA, export it as a JAR File (named JCA.jar), put the jar in your /src/main/resources/ directory, and in your pom.xml, add this to your dependencies:
 ```xml
 <repository>
-  <id>Java Challonge API</id>
-  <url>file://${basedir}/src/main/resources/JCA-0.1.jar</url>
+  <id>Swedz's Repository</id>
+  <url>http://swedz.net/repo/</url>
 </repository>
 ...
 <dependency>
   <groupId>me.Swedz</groupId>
   <artifactId>JCA</artifactId>
-  <version>0.1</version>
+  <version>latest</version>
+  <scope>compile</scope>
 </dependency>
 ```
-Once you do this, you can use the API in your project as much as you want!
-Note that the <repository> and <dependency> must go in their respective sections.
-Also, be sure to put JCA-0.1.jar into your local repository:
-```
-C:\Users\{Username}\.m2\repository\me\Swedz\JCA\0.1\JCA-0.1.jar
-```
-Include the jar in your /src/main/resources/ as well.
 
 ## Known Problems
 All projects have their little quirks and issues. And these are JCA's:
