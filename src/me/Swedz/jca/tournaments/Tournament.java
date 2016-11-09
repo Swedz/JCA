@@ -8,7 +8,6 @@ import me.Swedz.jca.match.Matches;
 import me.Swedz.jca.participants.Participants;
 import me.Swedz.jca.web.Web;
 
-@SuppressWarnings("static-access")
 public class Tournament {
 	protected String api_key;
 	protected String name;
