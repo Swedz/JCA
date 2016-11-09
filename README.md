@@ -40,7 +40,7 @@ Note, when supplying the match id, you want to specify the global match number. 
 ## Maven Setup
 ```xml
 <repository>
-  <id>Swedz's Repository</id>
+  <id>Swedz Repository</id>
   <url>http://swedz.net/repo/</url>
 </repository>
 ...
