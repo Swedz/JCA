@@ -10,19 +10,19 @@ import me.Swedz.jca.web.Web;
 
 @SuppressWarnings("static-access")
 public class Tournament {
-	protected static String api_key;
-	protected static String name;
-	protected static Type type;
-	protected static String url;
-	protected static String desc;
-	protected static boolean open_signup;
-	protected static boolean hold_third_place_match;
-	protected static boolean hide_forum;
-	protected static boolean isprivate;
-	protected static ArrayList<String> participants;
-	protected static boolean sequential_pairings;
-	protected static int timeout;
-	protected static boolean debug;
+	protected String api_key;
+	protected String name;
+	protected Type type;
+	protected String url;
+	protected String desc;
+	protected boolean open_signup;
+	protected boolean hold_third_place_match;
+	protected boolean hide_forum;
+	protected boolean isprivate;
+	protected ArrayList<String> participants;
+	protected boolean sequential_pairings;
+	protected int timeout;
+	protected boolean debug;
 	
 	/*
 	 * Creates a completely new SingleElim.
