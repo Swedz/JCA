@@ -48,7 +48,7 @@ Note, when supplying the match id, you want to specify the global match number. 
 <dependency>
   <groupId>me.Swedz</groupId>
   <artifactId>JCA</artifactId>
-  <version>0.5</version>
+  <version>0.8</version>
   <scope>compile</scope>
 </dependency>
 ```
