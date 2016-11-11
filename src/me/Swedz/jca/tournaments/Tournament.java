@@ -242,6 +242,7 @@ public class Tournament {
 			System.out.println("[DEBUG]: " + reply);
 		}
 		
+		Participants.ids = new HashMap<Integer, Integer>();
 		if(!this.participants.isEmpty()) {
 			int seed = 1;
 			for(String lp : this.participants) {
