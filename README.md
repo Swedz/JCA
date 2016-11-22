@@ -12,10 +12,10 @@ Tournament tourn = new Tournament()
     .setType(Type.SINGLE)
     .setURL("single_elim")
     .setDesc("Some dank tournament stuffs")
-    .withPlayers(new String[] {
-        "Dank",
-        "Memes"
-    }).build();
+    .withPlayers(new ArrayList<String>(Arrays.asList(
+        "hey",
+        "hi"
+    )).build();
 ```
 This will create a tournament at the link challonge.com/single_elim/ with the players Dank and Memes, description of "Some dank tournament stuffs", and with a display name of "Swedz's Tournament".
 
