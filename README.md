@@ -1,5 +1,7 @@
 [![JCA Banner](http://i.imgur.com/IuMFp5Z.png "Java Challonge API")](https://github.com/Swedz/JCA/)
 
+***Note that this project has been cancelled and no further development on my end will be taking place. Feel free to take the code and update it elsewhere. Give credit if you're feeling nice ;)***
+
 # JCA (Java Challonge API)
 JCA strives to make [Challonge](https://challonge.com/) interactions through Java a lot easier, cleaner, and more efficient.
 
@@ -36,22 +38,6 @@ JCA.matches().winner(1, "Dank");
 JCA.matches().tie(1, "Dank", "Memes");
 ```
 Note, when supplying the match id, you want to specify the global match number. So, you would need to make an int variable (starting at 1) that will be added to every time a game ends. And that would be the match id you supply to the JCA#matches()#winner() or JCA#matches()#tie() methods.
-
-## Maven Setup
-```xml
-<repository>
-  <id>swedz-repo</id>
-  <name>Swedz's Repository</name>
-  <url>http://swedz.net/repo/</url>
-</repository>
-...
-<dependency>
-  <groupId>me.Swedz</groupId>
-  <artifactId>JCA</artifactId>
-  <version>0.8</version>
-  <scope>compile</scope>
-</dependency>
-```
 
 ## Known Problems
 All projects have their little quirks and issues. And these are JCA's:
